@@ -1,0 +1,47 @@
+.box .card {
+  border-radius: 1px;
+  border-color: #F2F2F2;
+  background-color: #F2F2F2;
+  color: #000000;
+  z-index: 0;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.box .card:hover {
+  transition: all 0.4s ease-out;
+  box-shadow: 0px 8px 12px rgba(38, 38, 38, 0.4);
+  background-color: #FEE856;
+  z-index: 1;
+  transform: scale(1.05);
+}
+.box .card .name {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+.box .card .num {
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 8px;
+}
+.box .card .small {
+  text-align: center;
+  font-size: 13px;
+}
+.box .card .button {
+  background-color: #834495;
+  color: white;
+  margin: 18px;
+  padding: 3px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  border: 1px solid #834495;
+  border-radius: 3px;
+}/*# sourceMappingURL=card.css.map */

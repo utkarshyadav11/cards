@@ -1,0 +1,50 @@
+@mixin card{
+        border-radius: 1px;
+        border-color: #F2F2F2;
+        background-color: #F2F2F2;
+        color: #000000;
+        z-index: 0;
+        // box-shadow: 0px 5px 5px 0px rgba(216, 203, 203, 0.5);
+        padding: 15px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 30px;
+
+        
+}
+@mixin name{
+        text-align: center;
+        font-weight: 700;
+        font-size: 20px;
+}
+
+
+
+@mixin num{
+        text-align: center;
+        font-weight: 700;
+        font-size: 18px;
+        padding: 8px;
+
+
+}
+@mixin small{
+        text-align: center;
+                font-size: 13px;
+
+
+}
+@mixin button{
+        background-color: #834495;
+        color: white;
+        margin: 18px;
+        padding: 3px 16px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 14px;
+        border: 1px solid #834495 ;
+        border-radius: 3px;
+
+}

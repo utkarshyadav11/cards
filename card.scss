@@ -1,0 +1,59 @@
+@import "mixin";
+
+.box{
+   
+.card{
+        @include card;
+        cursor: pointer;
+        &:hover {
+                transition: all 0.4s ease-out;
+                box-shadow: 0px 8px 12px rgba(38, 38, 38, 0.4);
+                background-color: #FEE856;
+                z-index: 1;
+                transform: scale(1.05);
+        }
+
+     .name{
+        @include name;
+     }
+     .num{
+        @include num;
+     }
+     .small{
+        @include small;
+     }
+     .button{
+        @include button;
+     }
+        // .name{
+        //         text-align: center;
+        //         font-weight: 700;
+        //         font-size: 20px;
+        // }
+        // .num{
+        //         text-align: center;
+        //         font-weight: 700;
+        //         font-size: 18px;
+        //         padding: 8px;
+
+        // }
+        // .small{
+        //         text-align: center;
+        //         font-size: 13px;
+
+        // }
+        // .button{
+        //         background-color: #834495;
+        //         color: white;
+        //         margin: 18px;
+        //         padding: 3px 16px;
+        //         text-align: center;
+        //         text-decoration: none;
+        //         font-size: 14px;
+
+        // }
+
+}
+       
+        
+}
